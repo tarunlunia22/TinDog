@@ -1,0 +1,169 @@
+/* Title section */
+
+body{
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+}
+
+h3{
+  font-size: 1.3rem;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.container-fluid{
+  padding : 5% 13%;
+}
+
+/* Sections */
+.coloured-section{
+  background-color: #e7305b;
+  color: white;
+}
+
+.white-section{
+  background-color: #fff;
+}
+/* Big-heading */
+
+.big-heading{
+  font-family: "Montserrat";
+  line-height: 2.0;
+  font-size: 3.2rem;
+}
+
+/* Header section */
+
+#title .container-fluid{
+  text-align: left;
+  padding: 3% 13% 7%;
+}
+
+.head{
+  margin-top:4%;
+}
+.top{
+  margin-top: 0;
+  padding-bottom: 4%;
+}
+.navbar{
+  font-size: 24px;
+  padding-left: 0;
+}
+.navbar-brand{
+  font-size: 40px;
+  font-family:"Ubuntu";
+  font-weight:lighter;
+}
+.nav-item{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.download-button{
+  text-align:left;
+  margin-top: 25px;
+  margin-right: 15px;
+}
+
+.rotate90 {
+    width: 60%;
+    transform: rotate(25deg);
+    position : absolute;
+    right : 29%;
+}
+
+
+/* Section of Features */
+
+
+#features{
+  position: relative;
+}
+
+.dwn-button{
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+
+.dwn-button:hover{
+  color: #e7305b;
+}
+
+.middle{
+    padding : 6%;
+}
+
+/* Testimonials */
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-text{
+  font-size: 2.8rem;
+  line-height: 1.5;
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
+.testimonial-img{
+  width: 12%;
+  border-radius: 100%;
+  margin: 5%;
+}
+
+/* Press */
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 10px 20px 20px 50px ;
+}
+
+
+/* Pricing */
+.price-text{
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+.pricing-col{
+  padding-top: 35px;
+  padding-right:45px;
+}
+
+
+/* cta */
+.texti{
+  line-height: 1.2;
+  font-size: 2.5rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* Footer */
+.clp{
+  margin-right: 1%;
+  margin-bottom: 2%;
+}
+
+/* Media Query */
+
+@media (max-width:1028px){
+  .rotate90{
+    padding-top: 7%;
+    position: static;
+    transform: rotate(0deg);
+  }
+
+}
